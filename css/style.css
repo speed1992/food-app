@@ -73,6 +73,7 @@ width:100%;
 .btn1 {
     background-color: Transparent;
     background-repeat:no-repeat;
+    border-width: 1.2px; 
     border-radius: 6px;
     border-color:#75d3c8;
     color: #4fc1b4;
@@ -92,6 +93,7 @@ width:100%;
 .btn2{
     background-color: Transparent;
     background-repeat:no-repeat;
+    border-width: 1.2px; 
     border-radius: 6px;
     border-color: #f156bf!important;
     color:  #f156bf!important;
@@ -110,6 +112,7 @@ width:100%;
 #delivery{
     padding: 30px;
     text-align: left;
+  
 }
 .remove-borders,.remove-borders:hover,.remove-borders:focus{
     border: none!important;
@@ -122,6 +125,8 @@ width:100%;
 
     padding: 14px 0px 11px 10px;
     border: 1px solid #cac6c6;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
@@ -154,6 +159,10 @@ body{margin-top:20px;}
     width:28%;
     display: inline-block;
 }
+.width-4{
+    width:68%;
+    display: inline-block;
+}
 .box-1{
     border: 1px solid #ccc;
     border-radius: 5px; 
@@ -184,4 +193,15 @@ body{margin-top:20px;}
 .height-plus-scroll{
     height: 200px;
     overflow-y: scroll;
+}
+.label-special{
+    color: #4fc1b4;
+    padding-left: 1.25rem;
+}
+.total-1{
+    font-size: 17px; 
+    color:#e46b67;
+}
+.padding-left-12{
+    padding-left: 10px; 
 }
