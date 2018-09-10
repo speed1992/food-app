@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+	height:65px;
+	
+}
+/* Header/Blog Title */
+.header2 {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header2 h1 {
+    font-size: 50px;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+background: white;
+    float: left;
+    width: 25.33%;
+    padding: 15px;
+	overflow:scroll;
+	
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+#logo{
+float:left;
+height: 45px;
+width:60px;
+margin-left:50px;
+}
+
+#logo2
+{
+
+width:100%;
+}
+
+.btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	font-family:bold;
+	font-size:15px;
+	margin-top:10px;
+	position:relative;
+	left:400px;
+	
+}
+
+.btn1 {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-radius: 6px;
+	margin: 3px;
+	border-color:red;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	font-family:bold;
+	font-size:15px;
+	margin-top:10px;
+	height: 30px;
+	position:relative;
+	left:500px;
+	bottom:50px;
+	color:green;
+	opacity: 0.5;
+	
+	
+}
+#delivery{
+text-align:left;
+font-family: sans;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<div class="header">
+ <img id="logo" src="scn2.jpg">
+ <button type="button" class="btn">SIGN IN</a>
+  <button type="button" class="btn">CART</a>
+ 
+</div>
+<div class="header2">
+  <img src="scn1.jpg" id="logo2">
+  <p id="delivery"><strong>DELIVERY LOCATION:</strong>521-B, Sushant Lok Phase 1, Sector 27, Gurgram, Haryana 122009</p>
+  <button type="button" class="btn1">Change Location</a>
+  <button type="button" class="btn1">Detect Location </a>
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <ol>Appetizers</ol>
+    <li>abc</li>
+	<li>abc</li>
+	<li>abc</li>
+	
+	
+  </div>
+   <div class="column">
+    <ol>Appetizers</ol>
+    <li>abc</li>
+	<li>abc</li>
+	<li>abc</li>
+	
+	
+  </div>
+  <div class="column">
+    <ol>Appetizers</ol>
+    <li>abc</li>
+	<li>abc</li>
+	<li>abc</li>
+	
+	
+  </div>
+  <!-- <div class="column"> -->
+    <!-- <h2>Column</h2> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p> -->
+  <!-- </div> -->
+  <!-- <div class="column"> -->
+    <!-- <h2>Column</h2> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p> -->
+  <!-- </div> -->
+</div>
+
+</body>
+</html>
