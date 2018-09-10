@@ -68,19 +68,7 @@ margin-left:50px;
 width:100%;
 }
 
-.btn {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-	font-family:bold;
-	font-size:15px;
-	margin-top:10px;
 
-	
-}
 
 .btn1 {
     background-color: Transparent;
@@ -146,46 +134,54 @@ body{margin-top:20px;}
     padding-left: 60px;
 }
 
-
-.tabs-left, .tabs-right {
-    border-bottom: none;
-    padding-top: 2px;
-  }
-  .tabs-left {
-    border-right: 1px solid #ddd;
-  }
-  .tabs-right {
-    border-left: 1px solid #ddd;
-  }
-  .tabs-left>li, .tabs-right>li {
-    float: none;
-    margin-bottom: 2px;
-  }
-  .tabs-left>li {
-    margin-right: -1px;
-  }
-  .tabs-right>li {
-    margin-left: -1px;
-  }
-  .tabs-left>li.active>a,
-  .tabs-left>li.active>a:hover,
-  .tabs-left>li.active>a:focus {
-    border-bottom-color: #ddd;
-    border-right-color: transparent;
-  }
-  
-  .tabs-right>li.active>a,
-  .tabs-right>li.active>a:hover,
-  .tabs-right>li.active>a:focus {
-    border-bottom: 1px solid #ddd;
-    border-left-color: transparent;
-  }
-  .tabs-left>li>a {
-    border-radius: 4px 0 0 4px;
-    margin-right: 0;
-    display:block;
-  }
-  .tabs-right>li>a {
-    border-radius: 0 4px 4px 0;
-    margin-right: 0;
-  }
+.img-1{
+    width: 20px;
+    height: auto;
+    margin-right: 10px 
+}
+.margin-top-1{
+    margin-top: 10px; 
+}
+.width-1{
+    width:40%;
+    display: inline-block;
+}
+.width-2{
+    width:28%;
+    display: inline-block;
+}
+.width-3{
+    width:28%;
+    display: inline-block;
+}
+.box-1{
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+.box-1 i{
+    padding-left: 8px; 
+    padding-right: 8px;
+}
+.food-item-1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.spc-instr{
+    color: #8e8b8b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.btn-checkout{
+    border-radius: 0;
+    width: 250px;
+}
+.btn-special{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.height-plus-scroll{
+    height: 200px;
+    overflow-y: scroll;
+}
